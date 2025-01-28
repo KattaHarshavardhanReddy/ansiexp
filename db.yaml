@@ -28,7 +28,7 @@
     community.mysql.mysql_info:
       login_user: root
       login_password: "{{ u_pwd }}"
-      login_host: 172.31.84.169
+      login_host: mysql.katta.blog
     register: mysql_info
     ignore_errors: true
 
